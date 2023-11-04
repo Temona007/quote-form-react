@@ -1,0 +1,15 @@
+.thank-you-block {
+    /* margin-top: 90px; */
+    margin-bottom: 100px!important;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.thankyou-btn {
+    margin-left: 0;
+}
+
+.thank-you-block form {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}

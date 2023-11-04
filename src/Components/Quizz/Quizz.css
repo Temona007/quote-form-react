@@ -1,0 +1,42 @@
+.quizz-card {
+    /* width: 50rem; */
+    background-color: #f9f9f9;
+    /* margin-top: 20px; */
+    /* margin-bottom: 30px; */
+    max-width: 40rem;
+}
+
+#questions  .form-check {
+    padding-top: 4px;
+}
+
+#questions .form-check-input {
+    width: 28px;
+    height: 28px;
+    margin-right: 9px;
+}
+
+#questions .form-check-input:checked {
+    background-color: #ffc009;
+    border-color: #ffc009;
+}
+
+#questions .form-check-input:focus {
+    border-color: #e8fb10;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(242, 255, 121, 0.25);
+}
+
+#questions .share-info button {
+    float: right;
+    margin-top: 20px;
+    display: inline-block!important;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border-color: #2a3b69!important;
+    color: #2a3b69;
+    background-color: #efefef;
+    appearance: none;
+}

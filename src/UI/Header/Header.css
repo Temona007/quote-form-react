@@ -1,0 +1,46 @@
+.service-tab-header {
+    padding-bottom: 25px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.postcode-form-header h1 {
+    font-family: "Zilla Slab";
+    color: #242e2d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.postcode-form-header p {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: .7px;
+}
+
+#progress-text {
+    text-align: right;
+    padding-top: 50px;
+}
+
+
+#progress-bar-block {
+    padding-top: 55px;
+    padding-left: 5px;
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 100%;
+    background-color: #fed700;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+
+

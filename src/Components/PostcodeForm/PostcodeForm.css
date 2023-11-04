@@ -1,0 +1,105 @@
+#postcodeForm {
+    margin-top: 25px;
+}
+
+.margin-bottom-postcode-btn {
+    margin-bottom: -15px;
+    padding-top: 10px;
+}
+
+.postcode-form-content {
+    /* margin-bottom: 50px; */
+    background-color: #f9f9f9;
+}
+
+.postcode-form-content form {
+    padding-top:    70px;
+    padding-bottom: 70px;
+}
+
+.postcode-form-content p {
+    line-height: 1.3;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+form input {
+    display: inline-block!important;
+    width: 36%;
+    height: 59px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border-color: #2a3b69!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.postcode-form-content img {
+    width: 200px;
+    height: auto;
+}
+
+.postcode-form-content .image-block:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    clear: both;
+    /* background-image: url(https://www.solarquotes.com.au/img/2020_quote/welcome.png); */
+    background-image: url("https://tranquil-creponne-d0e55f.netlify.app/page-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 116%;
+    width: 300px;
+    margin-top: -19px;
+}
+
+.calculate-btn {
+    background-color: #fed700;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 2px solid #fed700;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 30%);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 5px 25px;
+    text-align: center;
+    transition: all .3s ease;
+    display: inline-block;
+    margin-left: 0; 
+    position: relative;
+    margin-left: 9px;
+}
+.calculate-btn:hover {
+    box-shadow: 0px 2px 3px rgb(254 215 0 / 75%);
+}
+
+.calculate-btn.enabled { }
+
+.calculate-btn.disabled {
+    color: #f5eeee;
+}
+
+#labelPostcode {
+    color: #0f3254;
+}
+
+/* FOOTER */
+.postcode-form-footer p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: .7px;
+    margin-bottom: 0;
+    margin-bottom: 7px;
+}
+
+.postcode-form-footer p.counter {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#postcodeForm #btn-next { }
+

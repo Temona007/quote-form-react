@@ -1,0 +1,19 @@
+#locationForm input {
+    width: 60%;
+    height: 59px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border-color: #2a3b69!important;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.location-btn {
+    margin-left: -50px;
+    top: -1px;
+}
+
+.location-btn-block {
+    display: inline-block;
+    width: 40%;
+}

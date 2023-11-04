@@ -1,0 +1,21 @@
+.progress{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.progress-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #242e2d;
+    font-style: normal;
+    text-align: right;
+}
+
+/* Change Progress */
+.progress-bar {
+    width: 10%;
+    transition: transform .4s;
+    transition: opacity 1s ease-out;
+    
+}
